@@ -1,0 +1,2 @@
+class Cheer < ApplicationRecord
+end
