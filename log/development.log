@@ -1056,3 +1056,351 @@ Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.5ms | Allocations: 1123)
   
 ActionController::RoutingError (No route matches [GET] "/assets/application.js-b03ff59254aa35596d006f95f490efee701684186f9556afe5646979d3f1a68e.map"):
   
+Started GET "/api/v1/cheers" for 127.0.0.1 at 2022-11-22 09:37:38 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.7ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.7ms | Allocations: 1115)
+
+
+Started GET "/" for ::1 at 2022-11-22 09:44:27 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 130.2ms | Allocations: 2095)
+Completed 200 OK in 131ms (Views: 131.0ms | Allocations: 2328)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:44:28 -0400
+Processing by Api::V1::CheersController#index as */*
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application.js-b03ff59254aa35596d006f95f490efee701684186f9556afe5646979d3f1a68e.map"):
+  
+  [1m[36mCheer Load (0.8ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 1317ms (Views: 1317.1ms | ActiveRecord: 148.9ms | Allocations: 53260)
+
+
+Started GET "/" for ::1 at 2022-11-22 09:46:27 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2121)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 2358)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:46:28 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.6ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.6ms | Allocations: 1124)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application.js-b03ff59254aa35596d006f95f490efee701684186f9556afe5646979d3f1a68e.map"):
+  
+Started GET "/" for ::1 at 2022-11-22 09:46:40 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 168.8ms | Allocations: 4837)
+Completed 200 OK in 170ms (Views: 169.6ms | ActiveRecord: 0.0ms | Allocations: 5074)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:46:41 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (1.0ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 1.0ms | Allocations: 1112)
+
+
+Started GET "/" for ::1 at 2022-11-22 09:51:20 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 257.0ms | Allocations: 4759)
+Completed 200 OK in 259ms (Views: 258.1ms | ActiveRecord: 0.0ms | Allocations: 4995)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:51:21 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.6ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.6ms | Allocations: 1112)
+
+
+Started GET "/" for ::1 at 2022-11-22 09:51:22 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 320.9ms | Allocations: 4756)
+Completed 200 OK in 323ms (Views: 322.2ms | ActiveRecord: 0.0ms | Allocations: 4992)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:51:23 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.6ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 28ms (Views: 26.7ms | ActiveRecord: 0.6ms | Allocations: 1113)
+
+
+Started GET "/" for ::1 at 2022-11-22 09:51:25 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 2053)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 2289)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:51:26 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (3.8ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 13ms (Views: 8.1ms | ActiveRecord: 3.8ms | Allocations: 1478)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:53:38 -0400
+Processing by Api::V1::CheersController#index as HTML
+  [1m[36mCheer Load (0.6ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.6ms | Allocations: 1108)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:53:39 -0400
+Processing by Api::V1::CheersController#index as HTML
+  [1m[36mCheer Load (0.4ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.4ms | Allocations: 1108)
+
+
+Started GET "/" for ::1 at 2022-11-22 09:57:45 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 204.8ms | Allocations: 4759)
+Completed 200 OK in 207ms (Views: 206.0ms | ActiveRecord: 0.0ms | Allocations: 4995)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:57:45 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.9ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.9ms | Allocations: 1112)
+
+
+Started GET "/" for ::1 at 2022-11-22 09:57:48 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 206.9ms | Allocations: 4765)
+Completed 200 OK in 218ms (Views: 217.1ms | ActiveRecord: 0.0ms | Allocations: 5001)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 09:57:49 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.6ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.6ms | Allocations: 1112)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:06:36 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 800.5ms | Allocations: 4776)
+Completed 200 OK in 803ms (Views: 802.1ms | Allocations: 5010)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:06:38 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (2.7ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 960ms (Views: 959.2ms | ActiveRecord: 286.5ms | Allocations: 4031)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:06:41 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 58.5ms | Allocations: 2098)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms | Allocations: 2334)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:06:42 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (2.9ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 2.9ms | Allocations: 1112)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application.js-542ae168961e4005d8a8ac0623c543b93b4273bf5fa6a482ebfe4a472a7312ea.map"):
+  
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:08:54 -0400
+Processing by Api::V1::CheersController#index as HTML
+  [1m[36mCheer Load (0.6ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 125ms (Views: 0.3ms | ActiveRecord: 66.7ms | Allocations: 3383)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:08:57 -0400
+Processing by Api::V1::CheersController#index as HTML
+  [1m[36mCheer Load (1.2ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 1025)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:09:01 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 281.9ms | Allocations: 5135)
+Completed 200 OK in 287ms (Views: 286.0ms | ActiveRecord: 0.0ms | Allocations: 5746)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:09:02 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (11.2ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:4:in `index'
+Completed 200 OK in 54ms (Views: 0.4ms | ActiveRecord: 11.2ms | Allocations: 1146)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:11:27 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 2330)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 2945)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:11:28 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.8ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:3:in `index'
+Completed 200 OK in 37ms (Views: 0.4ms | ActiveRecord: 13.2ms | Allocations: 2946)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:11:35 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 2229)
+Completed 200 OK in 21ms (Views: 20.9ms | ActiveRecord: 0.0ms | Allocations: 2497)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:11:35 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.7ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:3:in `index'
+Completed 200 OK in 14ms (Views: 5.5ms | ActiveRecord: 0.7ms | Allocations: 759)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:11:40 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 2057)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 2293)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:11:41 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (4.8ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:3:in `index'
+Completed 200 OK in 31ms (Views: 0.3ms | ActiveRecord: 4.8ms | Allocations: 735)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:21:54 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 646.9ms | Allocations: 4859)
+Completed 200 OK in 652ms (Views: 651.8ms | Allocations: 5092)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:21:55 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (2.2ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:3:in `index'
+Completed 200 OK in 791ms (Views: 0.3ms | ActiveRecord: 98.4ms | Allocations: 5012)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:21:59 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 32.2ms | Allocations: 2070)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 2306)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:21:59 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (1.9ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:3:in `index'
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 1.9ms | Allocations: 735)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:22:02 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 2076)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 2312)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:22:02 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (4.1ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:3:in `index'
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 4.1ms | Allocations: 1362)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:22:05 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 363.2ms | Allocations: 4743)
+Completed 200 OK in 370ms (Views: 369.0ms | ActiveRecord: 0.0ms | Allocations: 4980)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:22:06 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (0.9ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:3:in `index'
+Completed 200 OK in 26ms (Views: 0.3ms | ActiveRecord: 0.9ms | Allocations: 735)
+
+
+Started GET "/" for ::1 at 2022-11-22 10:22:08 -0400
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 2058)
+Completed 200 OK in 21ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 2294)
+
+
+Started GET "/api/v1/cheers" for ::1 at 2022-11-22 10:22:08 -0400
+Processing by Api::V1::CheersController#index as */*
+  [1m[36mCheer Load (7.9ms)[0m  [1m[34mSELECT "cheers".* FROM "cheers"[0m
+  ↳ app/controllers/api/v1/cheers_controller.rb:3:in `index'
+Completed 200 OK in 46ms (Views: 0.3ms | ActiveRecord: 7.9ms | Allocations: 735)
+
+
