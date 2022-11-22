@@ -259,3 +259,22 @@ Processing by RootController#index as HTML
 Completed 200 OK in 1769ms (Views: 1511.0ms | ActiveRecord: 0.0ms | Allocations: 75326)
 
 
+Started GET "/" for ::1 at 2022-11-21 22:07:25 -0400
+Started GET "/" for ::1 at 2022-11-21 22:07:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (24.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 210.9ms | Allocations: 397)
+  Rendered root/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 245)
+  Rendered layout layouts/application.html.erb (Duration: 943.6ms | Allocations: 39821)
+  Rendered layout layouts/application.html.erb (Duration: 730.9ms | Allocations: 39782)
+Completed 200 OK in 1158ms (Views: 1016.6ms | ActiveRecord: 0.0ms | Allocations: 43746)
+
+
+Completed 200 OK in 1147ms (Views: 1015.0ms | ActiveRecord: 0.0ms | Allocations: 43444)
+
+
